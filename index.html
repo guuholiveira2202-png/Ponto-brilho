@@ -1336,6 +1336,269 @@ footer{
         height:320px;
     }
 }
+
+/* ==========================================
+   MOBILE PREMIUM
+========================================== */
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width:92%;
+    }
+
+    section{
+        padding:80px 0;
+    }
+
+    /* HEADER */
+
+    header{
+        height:75px;
+    }
+
+    .nav{
+        height:75px;
+    }
+
+    nav{
+        display:none;
+    }
+
+    .logo h2{
+        font-size:1.2rem;
+    }
+
+    .btn-nav{
+        padding:12px 18px;
+        font-size:.85rem;
+    }
+
+    /* HERO */
+
+    .hero{
+        min-height:auto;
+        padding-top:120px;
+        padding-bottom:60px;
+    }
+
+    .hero-content{
+        display:flex;
+        flex-direction:column-reverse;
+        gap:40px;
+    }
+
+    .hero-text{
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:2.4rem;
+        line-height:1.1;
+    }
+
+    .hero-text p{
+        font-size:1rem;
+        max-width:100%;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        width:100%;
+        gap:12px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width:100%;
+        text-align:center;
+        padding:16px;
+    }
+
+    .hero-image img{
+        border-radius:24px;
+        max-height:350px;
+        object-fit:cover;
+    }
+
+    .hero-stats{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:15px;
+        margin-top:35px;
+    }
+
+    .hero-stats div{
+        background:rgba(255,255,255,.04);
+        border:1px solid rgba(255,255,255,.08);
+        padding:18px;
+        border-radius:18px;
+    }
+
+    .hero-stats h3{
+        font-size:1.6rem;
+    }
+
+    /* TÍTULOS */
+
+    .section-title{
+        margin-bottom:40px;
+    }
+
+    .section-title h2{
+        font-size:2rem;
+        line-height:1.2;
+    }
+
+    /* PROBLEM */
+
+    .problem-grid{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .card{
+        padding:25px;
+    }
+
+    /* SERVICES */
+
+    .services-grid{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .service-card{
+        padding:30px 25px;
+    }
+
+    /* BEFORE AFTER */
+
+    .comparison{
+        grid-template-columns:1fr;
+    }
+
+    .comparison-card img{
+        height:260px;
+    }
+
+    /* HISTORY */
+
+    .history-content{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .history h2{
+        font-size:2rem;
+    }
+
+    .numbers{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:15px;
+    }
+
+    .numbers div{
+        text-align:center;
+    }
+
+    /* REVIEWS */
+
+    .reviews{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .review{
+        padding:25px;
+    }
+
+    /* FAQ */
+
+    .faq-btn{
+        font-size:.95rem;
+        padding:20px;
+    }
+
+    /* FORM */
+
+    form{
+        gap:15px;
+    }
+
+    form input,
+    form select,
+    form button{
+        height:58px;
+        font-size:1rem;
+    }
+
+    /* FOOTER */
+
+    .footer-grid{
+        grid-template-columns:1fr;
+        gap:35px;
+        text-align:center;
+    }
+
+    .copyright{
+        font-size:.85rem;
+    }
+
+    /* WHATSAPP */
+
+    .whatsapp-fixed{
+        width:58px;
+        height:58px;
+        font-size:1.5rem;
+        right:18px;
+        bottom:18px;
+    }
+}
+
+/* ==========================================
+   SMALL DEVICES
+========================================== */
+
+@media screen and (max-width: 480px){
+
+    .hero-text h1{
+        font-size:2rem;
+    }
+
+    .hero-text p{
+        font-size:.95rem;
+    }
+
+    .section-title h2{
+        font-size:1.7rem;
+    }
+
+    .history h2{
+        font-size:1.7rem;
+    }
+
+    .hero-image img{
+        max-height:280px;
+    }
+
+    .comparison-card img{
+        height:220px;
+    }
+
+    .btn-primary,
+    .btn-secondary,
+    .btn-nav{
+        font-size:.9rem;
+    }
+
+    .card,
+    .service-card,
+    .review{
+        border-radius:20px;
+    }
+}
     </style>
     <script>
 /* ==========================================
